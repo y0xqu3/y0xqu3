@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>relato-02</title>
+    <style>
+        .container {
+            background-color: #4d4d4d;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #fff;
+            font-size: 3rem;
+        }
+
+        .titulo h2 {
+            text-align: center;
+            color: #fff;
+            font-size: 2.5rem;
+        }
+
+        .parte {
+            margin-top: -1.4rem;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            color: #fff;
+        }
+
+        h3 {
+            font-size: 1.7rem;
+        }
+
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #fff;
+        }
+
+        p {
+            color: #fff;
+            font-size: 1.3rem;
+        }
+
+        .lead {
+            color: #fff;
+        }
+
+        a {
+            color: ##090de3;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: ##090de3;
+            text-decoration: none;
+        }
+
+        .titulo-1 {
+            padding-top: 2rem;
+        }
+
+        .imagen {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+            margin-top: 2rem;
+        }
+
+        .contenido {
+            margin: 1.5rem;
+        }
+
+        .final {
+            height: 50px;
+            background-color: #807c07;
+        }
+
+        .mas-de {
+            margin-top: 0.9rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        button {
+            margin-bottom: 1.9rem;
+            background: black;
+            cursor: pointer;
+            border: none;
+            padding: 16px 32px;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            position: relative;
+            border-radius: 10px;
+        }
+
+        button:hover {
+            background: yellow;
+        }
+
+        button::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -4;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(60deg,
+                    #2ADB62, #E000B9, #C8DE3C, #DEA03C, #E82E20, #DEA03C, #E000B9);
+            background-size: 900%;
+            border-radius: 10px;
+            filter: blur(8px);
+            animation: glowing 20s linear infinite;
+        }
+
+        @keyframes glowing {
+            0% {
+                background-position: 0 0;
+            }
+
+            50% {
+                background-position: 400% 0;
+            }
+
+            100% {
+                background-position: 0 0;
+            }
+        }
+
+        .cite {
+            margin: 10px;
+            background-color: palevioletred;
+        }
+
+        footer {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="titulo">
+            <h1 class="titulo-1">Flor y Carlos</h1>
+            <h2 class="parte">Parte 1</h2>
+        </div>
+        <div class="imagen">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhtHOrM05Z2t5BKi8hzkdkD19EDuTdtTC9S9yadHwR1X2sCsPqlhuLmRkTUx6MO8JhzhSbRRMGCIvnEdGo8NAE5zBCRijGM545yTWsygtA9g2Wb4F9aZWVz1OsyxcRtJgeMgUAuAPuF2mXnSDgnK39gSx-WISU6N89yDOe-JWpLLijyYgYJ7Rx20GpEzAC/s800/051-052-065.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="contenido">
+            <div>
+                <p class="lead">El cumpleaños de mi novia estaba por llegar. Nos habíamos cambiado hacía poco de ciudad, por lo tanto, lo pasaríamos solos.</p>
+               <p class="lead">De todas formas, el pastel no podía faltar, se puso a buscar una pastelería cercana. Encontró una e hizo su encargo por Whatsapp, estaría listo para el día siguiente. Fuimos a recogerlo. Llegamos a la tienda y nos atendió una chica venezolana, fue bastante amable, aunque algo cortante. Para nuestro pesar, ella nos dijo que nuestro encargo estaba disponible en la otra sucursal. Nos molestamos, no teníamos auto, hacía bastante calor y no nos quedaba cerca. La chica se lamentaba porque efectivamente nadie nos había comunicado que el retiro no era en la sucursal principal.</p>
+               <p class="lead">Ella hizo una llamada y nos dijo: “les van a traer su pedido, tomen asiento, en unos minutos ya debe estar acá”.</p>
+               <p class="lead">Le dimos las gracias y nos sentamos a esperar.</p>
+               <p class="lead">Pasan 10 minutos, llega un tipo en moto, nos entrega el pastel, nos pide las disculpas del caso y nos vamos.</p>
+               <p class="lead">Llegamos al departamento, servimos la mesa, abrimos la torta y nos damos cuenta de que no es lo que pedimos y peor aún, es del sabor más odiado por mi novia.</p>
+               <p class="lead">Ella envía un mensaje a la tienda con una foto del pastel bastante molesta. La respuesta no se hizo esperar, nos quedaron de enviar la torta y nos hicieron un gran descuento para la siguiente compra.</p>
+               <p class="lead">Pasaron 30 minutos y le llega un mensaje a mi pareja avisando que ya estaban en nuestra dirección. Bajamos y estaba la chica que nos atendió, acompañada del tipo que nos trajo el pastel en moto. Se disculparon, estaban con mucho trabajo y nos prometían una atención especial si decidíamos comprar nuevamente ahí.</p>
+               <p class="lead">Nos fuimos a celebrar, comimos pastel, quedamos bastante conformes, estaba delicioso. Luego del enojo, mi novia les envió los agradecimientos por mensaje, ellos la recibieron de muy buena forma.</p>
+               <p class="lead">Llegó el fin de semana, salimos a un bar. De repente me doy cuenta de que alguien me saluda de lejos, no los reconocí para nada, ellos se acercaron hasta nuestra mesa y nos dimos cuenta de que era la misma pareja de la pastelería.</p>
+               <p class="lead">Se veían muy bien, muy diferentes, ella usaba un vestido largo hasta los muslos, color negro. El vestía una camisa y jeans. Nos costó bastante reconocerlos, hasta que los escuchamos hablar.</p>
+               <p class="lead">Se presentaron, “somos Flor y Carlos”, nos dijo la chica, ¿nos recuerdan cierto?</p>
+               <p class="lead">Yo: “si claro, nosotros somos Belén y Eric”.</p>
+               <p class="lead">Carlos: “este lugar es muy bueno, nosotros hemos venido varias veces”.</p>
+               <p class="lead">Flor: “les molesta si nos sentamos con ustedes?”.</p>
+               <p class="lead">Vi la cara de mi pareja, estaba cansada y quería irse pronto, pero ella misma les contestó: “si no hay problema”.</p>
+               <p class="lead">Intercambiamos historias, nos contaron de su relación, de sus trabajos y nosotros de la nuestra. Eran bastante buenos para conversar, sobre todo Flor. El tiempo se nos pasó bastante rápido, lo pasamos bastante bien con la compañía, pero era tarde, estábamos cansados y decidimos irnos.</p>
+               <p class="lead">Al llegar a la casa miro mi teléfono y veo 2 solicitudes de amistad, una de Flor y la otra de Carlos, le preguntó a mi pareja y me dice que ellas se habían agregado mientras conversaban.</p>
+               <p class="lead">Nos fuimos a la cama y tuvimos una muy buena cogida de celebración.</p>
+               <p class="lead">Al terminar de coger, reviso mi celular y veo un mensaje de Flor diciendo: “espero hayan cogido rico”. Preferí no decir nada a mi novia, dejé el mensaje en visto y me fui a dormir.</p>
+               <p class="lead">Despertamos, tomé mi celular, pero ya no vi el mensaje, seguramente Flor lo había borrado avergonzada.</p>
+               <p class="lead">En la semana Carlos me habló por si teníamos planes el fin de semana, le dije que sí, teníamos que ir a visitar a familiares. En el transcurso del día seguimos conversando temas variados. Tipo 11 pm, me dice que ya está por irse, que Flor lo está llamando para coger.</p>
+               <p class="lead">Yo: “que lo pasen bien”.</p>
+               <p class="lead">Carlos: “ustedes van a coger esta noche?”.</p>
+               <p class="lead">Yo: “no lo creo, tuvimos un día agotador y estamos cansados”.</p>
+               <p class="lead">C: “qué lástima, inspiración no creo que te falte, tu chica está bastante buena”.</p>
+               <p class="lead">Me sorprendí de sus palabras y me quedé algunos minutos sin contestarle, para luego responder: “gracias”.</p>
+               <p class="lead">Quedé pensando si contarle o no a Belén sobre aquellos mensajes algo más subidos de tono.</p>
+               <p class="lead">Al día siguiente decidí contarle, se sorprendió. Después la noté algo molesta, pero nos olvidamos del tema.</p>
+               <p class="lead">Pasaron algunas semanas y quisimos ocupar el descuento que nos prometieron en la pastelería, fuimos a ver Flor. Elegimos el pastel. Flor nos dijo que cerraría unos momentos y que la esperáramos algunos minutos, nos dio a probar una receta nueva que estuvo diseñando, estaba bastante delicioso el sabor. Nos fuimos y quedamos en hacer algo el fin de semana.</p>
+               <p class="lead">Por chat las chicas comenzaron a buscar opciones. Quedaron en ir un hotel spa que incluía masajes, tinajas, etc. Íbamos por 1 día y 1 noche.</p>
+               <p class="lead">Mi chica estaba algo dudosa con que bikini llevar, no había demasiada confianza con ellos, pero considerando los masajes y las tinajas era mucho más cómodo optar por algo pequeño. Además, sin que se diera cuenta, le guardé en el bolso uno más pequeño aún, el cual usó una vez en unas vacaciones que nos dimos en el caribe hace algunos años.</p>
+               <p class="lead">Después de una semana agotadora llegó el día, viajamos todos juntos en el auto de Carlos, ambas chicas iban similares, con vestidos cortitos hasta la mitad del muslo.</p>
+               <p class="lead">Mi novia mide 1.60, es de piel blanca, tiene el cabello liso y de color castaño claro hasta la mitad de la espalda, unas piernas largas y muy buenos muslos, ideales para agarrar. Trasero grande a comparación de su cintura, y sus senos son un poco más grande de lo que pueden abarcar mis manos. De cara es hermosa.</p>
+               <p class="lead">Flor es un poco más alta que mi novia, morena, cabello oscuro y crespo. Muy buenas piernas, muslos un poco menos gruesos que mi novia, pero muy sensuales. Si bien su trasero es pequeño, es muy bien formado. Lo más espectacular de su cuerpo son sus tetas, bastante grandes y al verlas parecen operadas, pero luego comprobamos que no lo eran.</p>
+               <p class="lead">Ambos vestidos eran similares, floreados y con un leve escote.</p>
+               <p class="lead">Con Carlos íbamos de camisa y short, muy simples. Yo mido 1,70, de contextura delgada y piel blanca. Carlos, algunos centímetros más alto que yo, moreno y sin ser para nada gordo era considerablemente más grueso que yo.</p>
+               <p class="lead">Entramos y optamos por comenzar en la sala de masajes, pero antes fuimos a conocer nuestras habitaciones, eran continuas, pero totalmente separadas. Nos duchamos rápidamente y bajamos.</p>
+               <p class="lead">Flor y Carlos nos esperaban ubicados sobre las camillas de masajes con una toalla sobre ellos esperando a ser atendidos.</p>
+               <p class="lead">Nosotros bajamos en bata y bajo ella estábamos vestidos como si fuéramos a la piscina (Belén en bikini y yo en short). Entraron 2 hombres para atender a las chicas y para nosotros entraron 2 mujeres. Nos dijeron que nuestro masaje era de 30 minutos. El tiempo se pasó volando y creo haberme dormido por algunos minutos.</p>
+               <p class="lead">Al terminar la sesión nos dijeron que estábamos en libertad de acción por 20 minutos, nos recomendaban esperar para que nuestros cuerpos se fueran temperando y añadió un: “están en la privacidad de su casa”.</p>
+               <p class="lead">Flor le dijo a Carlos: “puedes seguir mi masaje?”.</p>
+               <p class="lead">Carlos siguió instrucciones, masajeó las piernas de Flor, subiendo hasta su trasero. A continuación, se acercó a ella y la besó apasionadamente, con nuestra atenta mirada. Mientas me acerqué mi novia y empecé a tocar sus piernas debajo de la toalla.</p>
+               <p class="lead">Flor: “disculpen, con el masaje quedé prendida”. Carlos: “ambos quedamos, ustedes no?”. Belén: “¿será verdad el tema de la privacidad? ¿No habrá alguna cámara o algo?”. “Eso nos dijeron”, decía Flor mientras pasaba su mano sobre el bulto de su esposo.</p>
+               <p class="lead">Ellos se comenzaron a besar fogosamente sin parar y al mismo tiempo que el tocaba sus tetas, Flor metió su mano bajo la ropa de Carlos.</p>
+               <p class="lead">La escena era bastante morbosa y mi erección era tremenda, puse la mano de mi pareja sobre mi verga, ella avanzó un paso metiendo la mano bajo mi short.</p>
+               <p class="lead">El ambiente estaba muy caliente, pero todo se detuvo cuando escuchamos la puerta. Nos ordenamos la ropa y dejamos pasar al personal. Nos retiramos al comedor.</p>
+               <p class="lead">Aparte de comer, bebimos varias copas de vino. Fuimos soltando la lengua, y ya con mucha más confianza nos contamos anécdotas de todo tipo, nos reímos mucho. Ya algo alegres, decidimos ir a la piscina temperada.</p>
+               <p class="lead">Con Carlos fuimos los primero en entrar a la piscina.</p>
+               <p class="lead">Mi novia se quitó la bata y ante la atenta mirada del resto, estaba usando su bikini más pequeño, el que yo mismo le había guardado a escondidas, eso me sorprendió mucho. Antes de que entrara a la piscina, Flor la toma de su mano, y la hace dar una vuelta, apreciamos su cuerpo y lo espectacular de su trasero. Carlos estaba con la mirada fija en mi novia. Ahora fue el turno de Flor de quitarse la bata, tenía puesto un bikini MUY pequeño, lo que nos dejaba ver un lindo trasero. Pero lo increíble era como se le veían las tetas con un bikini tan pequeño, parecía que se le iban a salir, que delicia de mujer. Mi novia me estuvo mirando atentamente, pero no dijo nada. Ambas se sonrojaron cuando la atención se fue sobre ellas.</p>
+               <p class="lead">En la piscina había poca gente y ya varios iban de salida, cada pareja se comenzó a besar. Flor esperó que ya no hubiera nadie y dijo: “disculpen, espero no les moleste”, le bajó el short a Carlos, sacó su verga y lo comenzó a masturbar. No estábamos cerca a ellos y sumado al efecto natural que produce el agua no se podía ver nada realmente, pero se entendió lo que estaba haciendo. Para mi sorpresa mi pareja hizo lo mismo conmigo.</p>
+               <p class="lead">Pasaron unos 5 minutos y mi novia, me dijo al oído: “subamos”.</p>
+               <p class="lead">Flor: “se van a coger?”.</p>
+               <p class="lead">Yo: “si, ustedes?”.</p>
+               <p class="lead">Carlos: “también”.</p>
+               <p class="lead">Cada cual ingresó a su habitación.</p>
+               <p class="lead">Mi novia al cerrar la puerta me tiró a la cama me mamó un par de veces el pene y cuando se dio cuenta que estaba listo, se montó y comenzó a cabalgar. Sus tetas rebotaban muy fuerte, la agarré de las caderas y comencé a impulsar mi pelvis hacía arriba para darle más profundidad a su montada, se inclinó hacia adelante y yo aproveché de comerle los pezones. Mi novia empezó a gemir muy fuerte y en ese mismo instante escuchamos gemidos cercanos, sin duda eran de Flor.</p>
+               <p class="lead">Era evidente que ellos también nos escuchaban y eso nos calentó mucho más.</p>
+               <p class="lead">Flor desde la otra habitación me dijo: “Eric ponla en 4”.</p>
+               <p class="lead">Belén: “pero ustedes hagan lo mismo”.</p>
+               <p class="lead">Flor: “acérquense a la pared”.</p>
+               <p class="lead">Belén agarró algunas almohadas para apoyarse. Sentimos a Flor golpear la pared mientras Carlos comenzaba con las embestidas. Mi novia se acercó y aparentemente imitó la posición en la que estaba Flor, pero al otro lugar de la pared que nos dividía.</p>
+               <p class="lead">Flor: “que rica está la verga de Carlos, ¿cómo está la de Eric?”.</p>
+               <p class="lead">Belén: “te digo altiro”.</p>
+               <p class="lead">Se agacha se la mete entera en la boca, le dice a Flor: “está muy caliente, jugosa y dura. Lo acabo de comprobar con mi boca”.</p>
+               <p class="lead">Flor: “que ricooo, ya quisiera probarle la verga a Eric”.</p>
+               <p class="lead">Hubo un silencio que duró algunos segundos.</p>
+               <p class="lead">Belén: “le gusta que se la coman entera”, le dijo a Flor.</p>
+               <p class="lead">Flor: “tengo la boca grande y caliente, les prometo una buena mamada”.</p>
+               <p class="lead">Carlos: “doy fe de eso, es una experta con la verga en su boca”.</p>
+               <p class="lead">Yo: “es la mejor que te lo ha hecho?”.</p>
+               <p class="lead">Carlos: “es la única que me lo ha hecho”.</p>
+               <p class="lead">Flor: “nunca hemos estado con otras personas en ningún sentido... Eric siéntate en el sofá pequeño y quiero que Belén se suba sobre ti y ponga las tetas en tu cara mientras te monta, haremos lo mismo”.</p>
+               <p class="lead">Quedamos sorprendidos con tal confesión.</p>
+               <p class="lead">Siguiendo el juego, nos cambiamos de posición.</p>
+               <p class="lead">Se escuchaba el palmoteo de las nalgas de las chicas con nuestras piernas, los gemidos empezaron a subir de volumen por parte de todos, estábamos llegando al clímax. Yo le comía las tetas a mi novia que no daban más de duras y grandes. La tomé de las caderas y ella se afirmó fuertemente de la pared, comenzó a moverse adelante y atrás, cada vez más rápido.</p>
+               <p class="lead">Belén: “no doy másss”.</p>
+               <p class="lead">Flor: “esperaaameee. Acabemos juntas”.</p>
+               <p class="lead">Belén bajó un poco su ritmo, mientras yo me dedicaba a lamer sus pezones.</p>
+               <p class="lead">Flor: “Belén acaba conmigooo. Quiero que nos llenen de semen la vagina al mismo tiempo”.</p>
+               <p class="lead">Belén: “estás listo Carlos?”.</p>
+               <p class="lead">Carlos: “vamos!!”.</p>
+               <p class="lead">Flor: “uuuf estoy cerca, muy cerca. Que rico se debe sentir estar sobre la verga de Eric. ¿Intercambiemos vergas?”</p>
+               <p class="lead">La respuesta de Belén fue gemir y soltar uno que otro grito, ambos muy fuertes y descontrolados. La pared física que teníamos entremedio se sentía cada vez más delgada en nuestras mentes y en ese orgasmo los sentimos a ellos casi a nuestro lado compartiendo cama.</p>
+               <p class="lead">Flor: “estoy llena de leche, me voy a la ducha”.</p>
+               <p class="lead">Yo: “nos vamos a la ducha también”.</p>
+               <p class="lead">Con mi novia nos recorrimos mutuamente el cuerpo con las manos enjabonadas, desde el cuello hasta los pies. Sin decir palabra alguna. Le estuve comiendo los pezones que permanecían duros. Antes de salir se arrodilló y me comió algunas veces la verga.</p>
+               <p class="lead">Nos secamos y acostamos sin preocuparnos de la ropa. El alcohol y las ganas nos mantenían aún el cuerpo caliente. Mi verga, aunque ya no estaba dura, continuaba caliente.</p>
+               <p class="lead">Noté que mi novia se había dormido profundamente, lo mismo me pasó a mí que caí rendido por varios minutos.</p>
+               <p class="lead">No sé cuánto tiempo habrá transcurrió en aquella siesta, pero me di cuenta de que eran recién las 9 pm, me levanté al baño, vi a mi chica despertar. Bajamos y fuimos a comer.</p>
+               <p class="lead">Ya habíamos terminado de cenar hace harto rato. Nos pusimos a revisar el celular y nos quedamos mirando. Flor había creado un grupo en el chat de Instagram con nosotros 4 como integrantes, y el primer mensaje de Flor decía: “¿sigamos jugando?”.</p>
+               <p class="lead">Continuará...</p>
+            </div>
+            <div class="mas-de">
+                <button><a href="https://swingerelsalvador.blogspot.com/p/rel-03.html">Volver</a></button>
+            </div>
+        </div>
+    </div>
+    <footer class="final"></footer>
+</body>
+
+</html>
